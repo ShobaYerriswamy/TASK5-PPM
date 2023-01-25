@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "IEntityOperation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PPM.MODEL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IEntityOperation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IEntityOperation.dll": {}
+        }
+      },
+      "PPM.DOMAIN/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "IEntityOperation": "1.0.0",
+          "PPM.MODEL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PPM.DOMAIN.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PPM.DOMAIN.dll": {}
+        }
+      },
+      "PPM.MODEL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PPM.MODEL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PPM.MODEL.dll": {}
+        }
+      },
+      "PPM.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PPM.DOMAIN": "1.0.0",
+          "PPM.MODEL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PPM.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PPM.UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IEntityOperation/1.0.0": {
+      "type": "project",
+      "path": "../IEntityOperation/IEntityOperation.csproj",
+      "msbuildProject": "../IEntityOperation/IEntityOperation.csproj"
+    },
+    "PPM.DOMAIN/1.0.0": {
+      "type": "project",
+      "path": "../PPM.DOMAIN/PPM.DOMAIN.csproj",
+      "msbuildProject": "../PPM.DOMAIN/PPM.DOMAIN.csproj"
+    },
+    "PPM.MODEL/1.0.0": {
+      "type": "project",
+      "path": "../PPM.MODEL/PPM.MODEL.csproj",
+      "msbuildProject": "../PPM.MODEL/PPM.MODEL.csproj"
+    },
+    "PPM.UI/1.0.0": {
+      "type": "project",
+      "path": "../PPM.UI/PPM.UI.csproj",
+      "msbuildProject": "../PPM.UI/PPM.UI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "PPM.MODEL >= 1.0.0",
+      "PPM.UI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\SMandlole\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\SMandlole\\TASK5-PPM\\PPM.MAIN\\PPM.MAIN.csproj",
+      "projectName": "PPM.MAIN",
+      "projectPath": "c:\\Users\\SMandlole\\TASK5-PPM\\PPM.MAIN\\PPM.MAIN.csproj",
+      "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\SMandlole\\TASK5-PPM\\PPM.MAIN\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {
+              "projectPath": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\PPM.MODEL.csproj"
+            },
+            "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.UI\\PPM.UI.csproj": {
+              "projectPath": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.UI\\PPM.UI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

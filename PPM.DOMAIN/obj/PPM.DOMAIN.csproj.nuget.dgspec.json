@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.DOMAIN\\PPM.DOMAIN.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SMandlole\\TASK5-PPM\\IEntityOperation\\IEntityOperation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SMandlole\\TASK5-PPM\\IEntityOperation\\IEntityOperation.csproj",
+        "projectName": "IEntityOperation",
+        "projectPath": "C:\\Users\\SMandlole\\TASK5-PPM\\IEntityOperation\\IEntityOperation.csproj",
+        "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SMandlole\\TASK5-PPM\\IEntityOperation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\PPM.MODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.DOMAIN\\PPM.DOMAIN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.DOMAIN\\PPM.DOMAIN.csproj",
+        "projectName": "PPM.DOMAIN",
+        "projectPath": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.DOMAIN\\PPM.DOMAIN.csproj",
+        "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.DOMAIN\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\SMandlole\\TASK5-PPM\\IEntityOperation\\IEntityOperation.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\TASK5-PPM\\IEntityOperation\\IEntityOperation.csproj"
+              },
+              "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {
+                "projectPath": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\PPM.MODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\PPM.MODEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\PPM.MODEL.csproj",
+        "projectName": "PPM.MODEL",
+        "projectPath": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\PPM.MODEL.csproj",
+        "packagesPath": "C:\\Users\\SMandlole\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SMandlole\\TASK5-PPM\\PPM.MODEL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SMandlole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

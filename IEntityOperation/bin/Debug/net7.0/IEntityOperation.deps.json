@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "IEntityOperation/1.0.0": {
+        "dependencies": {
+          "PPM.MODEL": "1.0.0"
+        },
+        "runtime": {
+          "IEntityOperation.dll": {}
+        }
+      },
+      "PPM.MODEL/1.0.0": {
+        "runtime": {
+          "PPM.MODEL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IEntityOperation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PPM.MODEL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
